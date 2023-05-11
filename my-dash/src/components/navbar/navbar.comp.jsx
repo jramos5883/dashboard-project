@@ -7,7 +7,7 @@ const Navbar = () => {
     <Fragment>
       <div className="navbar-container container-fluid">
         <h1>Navbar</h1>
-        <Link to="/">Dashboard</Link>
+        <Link to="/">Homepage</Link>
         <Link to="auth">Sign In</Link>
       </div>
       <Outlet />
