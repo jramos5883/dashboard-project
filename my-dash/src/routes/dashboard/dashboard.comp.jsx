@@ -1,5 +1,8 @@
 import { UserAuth } from "../../context/authcontext";
 import { useNavigate } from "react-router-dom";
+
+import GoogleCalendar from "../../components/googlecalendar/googlecalendar.comp";
+
 import "./dashboard.styles.css";
 
 const DashBoard = () => {
@@ -24,7 +27,6 @@ const DashBoard = () => {
       <h3>User Email: {user && user.email}</h3>
 
       <button onClick={handleLogout}>Logout</button>
-
     </div>
   );
 };
