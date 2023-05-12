@@ -24,6 +24,7 @@ const DashBoard = () => {
       <h3>User Email: {user && user.email}</h3>
 
       <button onClick={handleLogout}>Logout</button>
+
     </div>
   );
 };
