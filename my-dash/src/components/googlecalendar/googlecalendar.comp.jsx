@@ -4,7 +4,7 @@ const GoogleCalendar = () => {
   return (
     <div className="google-calendar-container container-fluid">
       <h1>Google Calendar!</h1>
-      Need to access OAuth Token for permissions to user calendar data.
+      {/* Need to access OAuth Token for permissions to user calendar data. */}
       <iframe
         title="User's Google Calendar"
         src="https://calendar.google.com/calendar/embed?src=jrprodev%40gmail.com&ctz=America%2FLos_Angeles"
